@@ -1,0 +1,4 @@
+.bg-img-container {
+  background-image: url("/src/assets/images/BackgroundFixed.png");
+  background-size: cover;
+}
