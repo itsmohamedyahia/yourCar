@@ -1,0 +1,49 @@
+@import "./SectionAbout.scss";
+
+.section--services {
+  color: var(--blue);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.173), rgba(0, 0, 0, 0.185)),
+    url("../../assets/images/ServicesImg.png");
+  background-size: cover;
+
+  &__heading--shadow {
+    @extend .section--about__heading--shadow;
+    text-align: center;
+  }
+
+  &__heading {
+    @extend.section--about__heading;
+    text-align: center;
+    color: var(--blue);
+    margin-bottom: 10rem;
+  }
+
+  &__services {
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+
+    @media (max-width: $tablet) {
+      flex-direction: column-reverse;
+    }
+
+    &__service {
+      text-align: center;
+      padding: 0 2rem;
+
+      &__icon {
+        margin-bottom: 5rem;
+      }
+      &__title {
+        font-size: 3.2rem;
+        margin-bottom: 3rem;
+      }
+      &__description {
+        font-size: 2.2rem;
+      }
+    }
+  }
+}

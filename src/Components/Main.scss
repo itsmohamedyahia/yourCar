@@ -1,7 +1,35 @@
+@import "../variables.scss";
+
 .container {
   max-width: 160rem;
   margin: 0 auto;
-  text-align: right;
-  display: grid;
-  justify-content: end;
+  padding: 10rem 0;
+
+  @media (max-width: $tablet) {
+    padding: 15rem 2rem;
+  }
+
+  &--align-right {
+    @extend .container;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: end;
+
+    @media (max-width: $tablet) {
+      align-items: center;
+    }
+  }
+
+  &--flex {
+    @extend .container;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--center {
+    @extend.container;
+    display: flex;
+    justify-content: center;
+  }
 }

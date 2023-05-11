@@ -1,15 +1,10 @@
-export default function CartIcon(props) {
+export default function CartIcon() {
   return (
     <svg
-      fill={props.fill}
       baseProfile="tiny"
-      height={props.size}
       version="1.2"
       viewBox="0 0 24 24"
-      width={props.size}
-      xml:space="preserve"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
     >
       <g id="Layer_1">
         <g>

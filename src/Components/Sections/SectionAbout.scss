@@ -1,11 +1,73 @@
+@import "../../variables.scss";
+
 .section--about {
+  @media (max-width: $tablet) {
+    display: flex;
+    justify-content: center;
+  }
+
   &__heading {
     font-size: 5.6rem;
+    color: var(--brown);
+    margin-top: -6rem;
+    margin-left: 2rem;
+    margin-bottom: 5.4rem;
+
+    @media (max-width: $tablet) {
+      font-size: 4.8rem;
+      text-align: center;
+    }
+
     &--shadow {
       font-size: 12.8rem;
+      color: #ebebeb;
+      text-transform: uppercase;
+
+      @media (max-width: $tablet) {
+        font-size: 8rem;
+        text-align: center;
+      }
     }
   }
   &__text {
     font-size: 2rem;
+    line-height: 2.4rem;
+    font-family: "Nunito Sans";
+    letter-spacing: 0.05em;
+    max-width: 64rem;
+    &--first {
+      margin-bottom: 2.2rem;
+    }
+  }
+  &__container--img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &::before {
+      content: "";
+      background-image: url("../../assets/images/about__bg.png");
+      position: absolute;
+      display: block;
+      width: 50rem;
+      transform: translateX(-10rem);
+      height: 60rem;
+      z-index: -1;
+
+      @media (max-width: $tablet) {
+        display: none;
+      }
+    }
+  }
+  &__img--car {
+    width: 40rem;
+
+    @media (max-width: $small-laptop) {
+      width: 30rem;
+      height: fit-content;
+    }
+    @media (max-width: $tablet) {
+      display: none;
+    }
   }
 }

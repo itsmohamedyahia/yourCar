@@ -4,7 +4,7 @@ import "./SectionHero.scss";
 export default function SectionHero() {
   return (
     <section className="section--hero">
-      <div className="container">
+      <div className="container--align-right">
         <h1 className="section--hero__heading">
           Find the perfect car for you at YourCar.
         </h1>

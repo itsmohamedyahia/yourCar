@@ -1,29 +1,46 @@
 .section--hero {
   color: white;
-  padding-top: 10.1rem;
-  padding-bottom: 22.5rem;
+  padding-bottom: 12.5rem;
 
   &__heading {
     font-size: 6.4rem;
     max-width: 60.5rem;
     margin-bottom: 3.8rem;
+
+    @media (max-width: 65.625em) {
+      font-size: 4.5rem;
+      margin-bottom: 8rem;
+      text-align: center;
+    }
   }
   &__text {
     font-size: 3.2rem;
     max-width: 39.5rem;
-    justify-self: end;
     margin-bottom: 4.8rem;
+
+    @media (max-width: 65.625em) {
+      font-size: 3.2rem;
+      justify-self: center;
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 20rem;
+    }
   }
 
   &__link {
     font-size: 2.4rem;
     border: 2px solid white;
     width: fit-content;
-    justify-self: end;
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 1rem 2rem;
     border-radius: 1rem;
+
+    @media (max-width: 65.625em) {
+      justify-self: center;
+      font-size: 4rem;
+      padding: 2rem 4rem;
+    }
   }
 }

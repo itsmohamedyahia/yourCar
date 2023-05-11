@@ -13,12 +13,21 @@
     }
   }
 
+  &__container {
+    display: flex;
+    align-items: center;
+  }
   &__nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
     &__list {
       display: flex;
       gap: 3rem;
       align-items: center;
     }
+
     &__link {
       padding: 0.5rem 0.75rem;
 
@@ -27,8 +36,35 @@
 
       &:active,
       &:hover {
-        background-color: #741906;
+        background-color: var(--brown);
       }
     }
+  }
+  &__cart-btn {
+    fill: #fff;
+    width: 4rem;
+    height: 4rem;
+  }
+  &__burger-btn {
+    fill: #fff;
+    width: 2rem;
+    height: 2rem;
+  }
+  &__mob-btn {
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .navbar {
+    background-color: white;
+    color: var(--blue);
+    padding: 1.5rem 1rem;
+  }
+  .navbar__nav {
+    display: none;
+  }
+  .navbar__mob-btn {
+    fill: var(--blue);
   }
 }
