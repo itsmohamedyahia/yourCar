@@ -1,15 +1,22 @@
 import "./App.scss";
-import Navbar from "./Components/Navbar/Navbar";
 import Main from "./Components/Main";
+import Navbar from "./Components/Navbar/Navbar";
 import SectionHero from "./Components/Sections/SectionHero";
+import NavHeroContainer from "./Components/NavHeroContainer";
+import SectionAbout from "./Components/Sections/SectionAbout";
+import SectionServices from "./Components/Sections/SectionServices";
+
 function App() {
   return (
     <>
-      <div className="bg-img-container">
+      <NavHeroContainer>
         <Navbar />
         <SectionHero />
-      </div>
-      <Main />
+      </NavHeroContainer>
+      <Main>
+        <SectionAbout />
+        <SectionServices />
+      </Main>
     </>
   );
 }
