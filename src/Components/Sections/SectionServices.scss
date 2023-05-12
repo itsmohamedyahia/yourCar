@@ -1,4 +1,5 @@
-@import "./SectionAbout.scss";
+@import "../../variables.scss";
+@import "../../utils.scss";
 
 .section--services {
   color: var(--blue);
@@ -7,12 +8,12 @@
   background-size: cover;
 
   &__heading--shadow {
-    @extend .section--about__heading--shadow;
+    @extend .heading--shadow;
     text-align: center;
   }
 
   &__heading {
-    @extend.section--about__heading;
+    @extend.heading;
     text-align: center;
     color: var(--blue);
     margin-bottom: 10rem;

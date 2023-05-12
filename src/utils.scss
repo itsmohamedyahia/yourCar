@@ -33,3 +33,24 @@
     justify-content: center;
   }
 }
+
+.heading {
+  font-size: 5.6rem;
+  margin-top: -6rem;
+
+  @media (max-width: $tablet) {
+    font-size: 4.8rem;
+    text-align: center;
+  }
+
+  &--shadow {
+    font-size: 12.8rem;
+    color: #ebebeb;
+    text-transform: uppercase;
+
+    @media (max-width: $tablet) {
+      font-size: 8rem;
+      text-align: center;
+    }
+  }
+}

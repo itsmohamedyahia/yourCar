@@ -28,7 +28,7 @@ function NavHeroContainer(props) {
 
   const classes = isHeroVisible ? undefined : "sticky";
 
-  return <div className={classes + " bg-img-container"}>{props.children}</div>;
+  return <div className={" bg-img-container"}>{props.children}</div>;
 }
 
 export default NavHeroContainer;
