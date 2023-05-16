@@ -1,0 +1,12 @@
+.section--featured {
+  background-color: #fafafa;
+  &__img-container {
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img {
+    width: 10rem;
+  }
+}

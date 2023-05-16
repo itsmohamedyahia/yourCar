@@ -5,6 +5,7 @@ import NavHeroContainer from "./Components/NavHeroContainer";
 import SectionAbout from "./Components/Sections/SectionAbout";
 import SectionServices from "./Components/Sections/SectionServices";
 import SectionTestimonials from "./Components/Sections/SectionTestimonials";
+import SectionFeatured from "./Components/Sections/SectionFeatured";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <SectionAbout />
         <SectionServices />
         <SectionTestimonials />
+        <SectionFeatured />
       </main>
     </>
   );
