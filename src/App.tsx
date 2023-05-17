@@ -6,6 +6,7 @@ import SectionAbout from "./Components/Sections/SectionAbout";
 import SectionServices from "./Components/Sections/SectionServices";
 import SectionTestimonials from "./Components/Sections/SectionTestimonials";
 import SectionFeatured from "./Components/Sections/SectionFeatured";
+import Footer from "./Components/Sections/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <SectionServices />
         <SectionTestimonials />
         <SectionFeatured />
+        <Footer />
       </main>
     </>
   );

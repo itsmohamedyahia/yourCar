@@ -1,0 +1,166 @@
+@import "../../../variables.scss";
+@import "../../../utils.scss";
+
+.footer {
+  & .container {
+    display: grid;
+    justify-items: center;
+  }
+
+  &__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 12rem;
+    row-gap: 5rem;
+
+    @media (max-width: $small-laptop) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: $mobile) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__grid-item {
+    &--contact {
+      @media (max-width: $mobile) {
+        margin-bottom: 8rem;
+      }
+
+      &__content {
+        display: grid;
+        justify-content: center;
+        gap: 3rem;
+      }
+    }
+
+    @media (max-width: $mobile) {
+      display: grid;
+      justify-items: center;
+    }
+
+    &__logo {
+      font-family: "Lora";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 41px;
+      color: #741906;
+      margin-bottom: 3rem;
+
+      & span {
+        font-weight: 700;
+      }
+    }
+    &__company-description {
+      font-family: "Nunito Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 20px;
+      /* or 125% */
+      max-width: 30ch;
+
+      letter-spacing: 0.05em;
+
+      color: #12273d;
+
+      @media (max-width: $mobile) {
+        text-align: center;
+      }
+
+      // choose first class of type company-description
+      &--first {
+        margin-bottom: 2rem;
+      }
+    }
+
+    &__heading {
+      font-family: "Nunito Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 33px;
+
+      text-align: center;
+      color: #741906;
+      margin-bottom: 3.4rem;
+    }
+    &__contact-info {
+      font-family: "Nunito Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+
+      color: #12273d;
+
+      display: flex;
+      gap: 1.6rem;
+      align-items: center;
+
+      @media (max-width: $mobile) {
+        font-size: 2.2rem;
+      }
+    }
+
+    &__mobile {
+      display: block;
+    }
+  }
+  &__copyright {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #12273d;
+    & span {
+      font-weight: 700;
+    }
+  }
+  &__seperator {
+    height: 0.1rem;
+    background-color: #741906;
+    max-width: 100%;
+    justify-self: stretch;
+    margin-bottom: 2rem;
+  }
+  &__subscribe-description {
+    @extend .footer__grid-item__company-description;
+    text-align: center;
+    margin-bottom: 3.6rem;
+  }
+  &__social-media {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  &__form {
+    display: flex;
+    gap: 1rem;
+
+    &__input {
+      padding: 1.5rem 3rem;
+      border: none;
+      box-shadow: #741906 inset 0px 0px 0px 1px;
+
+      @media (max-width: $mobile) {
+        display: block;
+      }
+    }
+    &__submit-btn {
+      background-color: #741906;
+      padding: 1.5rem 3rem;
+      color: white;
+
+      @media (max-width: $mobile) {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
