@@ -7,6 +7,7 @@ import SectionServices from "./Components/Sections/SectionServices";
 import SectionTestimonials from "./Components/Sections/SectionTestimonials";
 import SectionFeatured from "./Components/Sections/SectionFeatured";
 import Footer from "./Components/Sections/Footer/Footer";
+import SectionGallery from "./Components/Sections/SectionGallery";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <main>
         <SectionAbout />
         <SectionServices />
+        <SectionGallery />
         <SectionTestimonials />
         <SectionFeatured />
         <Footer />
