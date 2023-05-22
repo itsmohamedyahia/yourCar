@@ -1,10 +1,26 @@
+@import "../../variables.scss";
+@import "../../utils.scss";
+
 .section--gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  // grid-template-rows: repeat(3, 0.8fr);
+
+  @media (max-width: $small-laptop) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: $mobile) {
+    grid-template-columns: 1fr;
+  }
 
   &__item {
     position: relative;
+
+    &:not(:nth-child(-n + 3)) {
+      @media (max-width: $mobile) {
+        display: none;
+      }
+    }
 
     &--center {
       & .section--gallery__item__label {
