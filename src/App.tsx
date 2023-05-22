@@ -50,7 +50,13 @@ function App() {
         <SectionFeatured />
 
         <Footer />
-        {/* <aside className="navigation"></aside> */}
+        <aside className="cart-sidebar">
+          {carsData
+            .filter((obj) => obj.inCart > 0)
+            .map((obj) => (
+              <h1>ez man</h1>
+            ))}
+        </aside>
       </main>
     </>
   );

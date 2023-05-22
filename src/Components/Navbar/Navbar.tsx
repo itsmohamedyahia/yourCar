@@ -4,6 +4,8 @@ import "./Navbar.scss";
 import NavItem from "./NavItem";
 
 export default function Navbar() {
+  function cartBtnHandler() {}
+
   return (
     <header className="navbar">
       <a href="#" className="navbar__logo-link">
@@ -23,6 +25,7 @@ export default function Navbar() {
           className="navbar__mob-btn navbar__cart-btn"
           label={<CartIcon />}
           btn
+          onClick={cartBtnHandler}
         ></NavItem>
         <NavItem
           className="navbar__mob-btn navbar__burger-btn"
