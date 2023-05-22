@@ -40,6 +40,12 @@
       &:active,
       &:hover {
         background-color: var(--brown);
+        color: white;
+      }
+
+      &:target {
+        background-color: var(--brown);
+        color: white;
       }
     }
   }

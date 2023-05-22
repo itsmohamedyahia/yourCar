@@ -14,11 +14,11 @@ export default function Navbar() {
       <div className="navbar__container">
         <nav className="navbar__nav">
           <ul className="navbar__nav__list">
-            <NavItem label="Home" to="/"></NavItem>
-            <NavItem label="About" to="/"></NavItem>
-            <NavItem label="Services" to="/"></NavItem>
-            <NavItem label="Cars" to="/"></NavItem>
-            <NavItem label="Contact Us" to="/"></NavItem>
+            <NavItem label="Home" to="#"></NavItem>
+            <NavItem label="About" to="#about"></NavItem>
+            <NavItem label="Services" to="#services"></NavItem>
+            <NavItem label="Cars" to="#cars"></NavItem>
+            <NavItem label="Contact Us" to="#footer"></NavItem>
           </ul>
         </nav>
         <NavItem

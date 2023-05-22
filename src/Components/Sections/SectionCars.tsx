@@ -28,7 +28,7 @@ export default function SectionCars() {
   };
 
   return (
-    <section className="section--cars">
+    <section id="cars" className="section--cars">
       <div className="container">
         <h1 className="section--cars__heading--shadow">Cars</h1>
         <h2 className="section--cars__heading">Cars</h2>

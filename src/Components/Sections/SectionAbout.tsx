@@ -3,7 +3,7 @@ import car from "../../assets/images/about__car_og.png";
 
 export default function SectionAbout() {
   return (
-    <section className="section--about">
+    <section id="about" className="section--about">
       <div className="container--flex">
         <div className="section--about__container--text">
           <h1 className="section--about__heading--shadow">About Us</h1>

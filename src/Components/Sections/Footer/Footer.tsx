@@ -11,7 +11,7 @@ function Footer() {
   function formSubmitHandler() {}
 
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       <div className="container ">
         <div className="footer__grid-container">
           <div className="footer__grid-item">

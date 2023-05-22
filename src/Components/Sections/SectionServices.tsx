@@ -6,7 +6,7 @@ import "./SectionServices.scss";
 
 export default function SectionServices() {
   return (
-    <section className="section--services">
+    <section id="services" className="section--services">
       <div className="container">
         <h1 className="section--services__heading--shadow">Services</h1>
         <h2 className="section--services__heading">Services</h2>
