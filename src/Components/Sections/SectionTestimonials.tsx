@@ -1,7 +1,12 @@
 import YellowStarIcon from "../../assets/svg/YellowStarIcon";
 import "./SectionTestimonials.scss";
 import img from "../../assets/images/testimonial__car.png";
-function SectionTestimonials() {
+
+import { useState } from "react";
+
+function SectionTestimonials(props) {
+  const [activeTest, setActiveTest] = useState(0);
+
   return (
     <section className="section--testimonials">
       <div className="container section--testimonials-container">
@@ -9,11 +14,7 @@ function SectionTestimonials() {
         <h2 className="section--testimonials__heading">Testimonials</h2>
         <div className="section--testimonials__card">
           <p className="section--testimonials__text">
-            I recently bought a car through YourCar and I was blown away by
-            their exceptional service. The staff were friendly and
-            knowledgeable, and they helped me find the perfect car for my needs.
-            I highly recommend YourCar to anyone looking for a luxury car buying
-            experience.
+            {props.data[activeTest].description}
           </p>
           <div className="section--testimonials__container--stars">
             <YellowStarIcon />
@@ -23,7 +24,9 @@ function SectionTestimonials() {
             <YellowStarIcon />
           </div>
           <div className="section--testimonials__attestant">
-            <p className="section--testimonials__attestant-name">Annie Rudy</p>
+            <p className="section--testimonials__attestant-name">
+              {props.data[activeTest].name}
+            </p>
             <p className="section--testimonials__attestant-address">
               Las vegas
             </p>
@@ -35,10 +38,20 @@ function SectionTestimonials() {
           ></img>
         </div>
         <div className="section--testimonials__circles">
-          <div className="section--testimonials__circle"></div>
-          <div className="section--testimonials__circle"></div>
-          <div className="section--testimonials__circle"></div>
-          <div className="section--testimonials__circle"></div>
+          {props.data.map((item, index) => {
+            return (
+              <div
+                key={index}
+                className={`section--testimonials__circle ${
+                  index === activeTest &&
+                  "section--testimonials__circle--active"
+                }`}
+                onClick={() => {
+                  setActiveTest(index);
+                }}
+              ></div>
+            );
+          })}
         </div>
       </div>
     </section>
