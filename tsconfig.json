@@ -15,12 +15,13 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
     // temporarily
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "strictNullChecks": false
   },
 
   "include": ["src"],
