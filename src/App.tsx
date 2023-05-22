@@ -40,14 +40,15 @@ function App() {
       <main>
         <SectionAbout />
         <SectionServices />
-        <SectionGallery />
-        <SectionTestimonials data={data.testimonials} />
-        <SectionFeatured />
         <SectionCars
           data={carsData}
           setData={setCarsData}
           handleQuantityChange={handleQuantityChange}
         />
+        <SectionGallery />
+        <SectionTestimonials data={data.testimonials} />
+        <SectionFeatured />
+
         <Footer />
         {/* <aside className="navigation"></aside> */}
       </main>
