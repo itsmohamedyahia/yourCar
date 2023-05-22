@@ -9,7 +9,7 @@ function BMWLogo() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_460_1557)">
+      <g clipPath="url(#clip0_460_1557)">
         <path
           d="M40.0031 0.0668945C17.9405 0.0668945 0.0535889 17.9521 0.0535889 40.0155C0.0535889 62.0786 17.9405 79.9641 40.0031 79.9641C62.0674 79.9641 79.9525 62.0786 79.9525 40.0155C79.9525 17.9521 62.0675 0.0668945 40.0031 0.0668945ZM40.0031 77.9666C19.0424 77.9666 2.0528 60.9755 2.0528 40.0155C2.0528 19.0557 19.0424 2.06382 40.0031 2.06382C60.9637 2.06382 77.9548 19.0557 77.9548 40.0155C77.9548 60.9755 60.9637 77.9666 40.0031 77.9666Z"
           fill="url(#paint0_linear_460_1557)"
@@ -112,12 +112,12 @@ function BMWLogo() {
           y2="77.6699"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DFF4FF" />
-          <stop offset="0.0984" stop-color="#D6EAF5" />
-          <stop offset="0.2678" stop-color="#BFD0D9" />
-          <stop offset="0.4879" stop-color="#98A5AC" />
-          <stop offset="0.7469" stop-color="#646B6E" />
-          <stop offset="1" stop-color="#2B2B2B" />
+          <stop stopColor="#DFF4FF" />
+          <stop offset="0.0984" stopColor="#D6EAF5" />
+          <stop offset="0.2678" stopColor="#BFD0D9" />
+          <stop offset="0.4879" stopColor="#98A5AC" />
+          <stop offset="0.7469" stopColor="#646B6E" />
+          <stop offset="1" stopColor="#2B2B2B" />
         </linearGradient>
         <radialGradient
           id="paint1_radial_460_1557"
@@ -127,10 +127,10 @@ function BMWLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(-0.444342 2.70868) scale(56.7572 56.7573)"
         >
-          <stop stop-color="white" />
-          <stop offset="0.3064" stop-color="#A8A8A8" />
-          <stop offset="0.6461" stop-color="#4F4F4F" />
-          <stop offset="0.8853" stop-color="#161616" />
+          <stop stopColor="white" />
+          <stop offset="0.3064" stopColor="#A8A8A8" />
+          <stop offset="0.6461" stopColor="#4F4F4F" />
+          <stop offset="0.8853" stopColor="#161616" />
           <stop offset="1" />
         </radialGradient>
         <linearGradient
@@ -141,12 +141,12 @@ function BMWLogo() {
           y2="16.0331"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DFF4FF" />
-          <stop offset="0.0855" stop-color="#D6EAF5" />
-          <stop offset="0.2327" stop-color="#BED0D9" />
-          <stop offset="0.4239" stop-color="#96A4AC" />
-          <stop offset="0.6516" stop-color="#5F686D" />
-          <stop offset="0.9075" stop-color="#1A1D1E" />
+          <stop stopColor="#DFF4FF" />
+          <stop offset="0.0855" stopColor="#D6EAF5" />
+          <stop offset="0.2327" stopColor="#BED0D9" />
+          <stop offset="0.4239" stopColor="#96A4AC" />
+          <stop offset="0.6516" stopColor="#5F686D" />
+          <stop offset="0.9075" stopColor="#1A1D1E" />
           <stop offset="1" />
         </linearGradient>
         <radialGradient
@@ -157,17 +157,17 @@ function BMWLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(-10.6378 -3.0713) scale(136.379 136.379)"
         >
-          <stop stop-color="white" />
-          <stop offset="0.3102" stop-color="#FDFDFD" />
-          <stop offset="0.4505" stop-color="#F6F6F6" />
-          <stop offset="0.5567" stop-color="#E9E9E9" />
-          <stop offset="0.6456" stop-color="#D7D7D7" />
-          <stop offset="0.7238" stop-color="#BFBFBF" />
-          <stop offset="0.7944" stop-color="#A2A2A2" />
-          <stop offset="0.8593" stop-color="#808080" />
-          <stop offset="0.9199" stop-color="#575757" />
-          <stop offset="0.9746" stop-color="#2B2B2B" />
-          <stop offset="1" stop-color="#141414" />
+          <stop stopColor="white" />
+          <stop offset="0.3102" stopColor="#FDFDFD" />
+          <stop offset="0.4505" stopColor="#F6F6F6" />
+          <stop offset="0.5567" stopColor="#E9E9E9" />
+          <stop offset="0.6456" stopColor="#D7D7D7" />
+          <stop offset="0.7238" stopColor="#BFBFBF" />
+          <stop offset="0.7944" stopColor="#A2A2A2" />
+          <stop offset="0.8593" stopColor="#808080" />
+          <stop offset="0.9199" stopColor="#575757" />
+          <stop offset="0.9746" stopColor="#2B2B2B" />
+          <stop offset="1" stopColor="#141414" />
         </radialGradient>
         <radialGradient
           id="paint4_radial_460_1557"
@@ -177,17 +177,17 @@ function BMWLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(-10.6438 -3.07128) scale(136.391 136.391)"
         >
-          <stop stop-color="white" />
-          <stop offset="0.3102" stop-color="#FDFDFD" />
-          <stop offset="0.4505" stop-color="#F6F6F6" />
-          <stop offset="0.5567" stop-color="#E9E9E9" />
-          <stop offset="0.6456" stop-color="#D7D7D7" />
-          <stop offset="0.7238" stop-color="#BFBFBF" />
-          <stop offset="0.7944" stop-color="#A2A2A2" />
-          <stop offset="0.8593" stop-color="#808080" />
-          <stop offset="0.9199" stop-color="#575757" />
-          <stop offset="0.9746" stop-color="#2B2B2B" />
-          <stop offset="1" stop-color="#141414" />
+          <stop stopColor="white" />
+          <stop offset="0.3102" stopColor="#FDFDFD" />
+          <stop offset="0.4505" stopColor="#F6F6F6" />
+          <stop offset="0.5567" stopColor="#E9E9E9" />
+          <stop offset="0.6456" stopColor="#D7D7D7" />
+          <stop offset="0.7238" stopColor="#BFBFBF" />
+          <stop offset="0.7944" stopColor="#A2A2A2" />
+          <stop offset="0.8593" stopColor="#808080" />
+          <stop offset="0.9199" stopColor="#575757" />
+          <stop offset="0.9746" stopColor="#2B2B2B" />
+          <stop offset="1" stopColor="#141414" />
         </radialGradient>
         <radialGradient
           id="paint5_radial_460_1557"
@@ -197,17 +197,17 @@ function BMWLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(-10.6512 -3.111) scale(136.495 136.496)"
         >
-          <stop stop-color="white" />
-          <stop offset="0.3102" stop-color="#FDFDFD" />
-          <stop offset="0.4505" stop-color="#F6F6F6" />
-          <stop offset="0.5567" stop-color="#E9E9E9" />
-          <stop offset="0.6456" stop-color="#D7D7D7" />
-          <stop offset="0.7238" stop-color="#BFBFBF" />
-          <stop offset="0.7944" stop-color="#A2A2A2" />
-          <stop offset="0.8593" stop-color="#808080" />
-          <stop offset="0.9199" stop-color="#575757" />
-          <stop offset="0.9746" stop-color="#2B2B2B" />
-          <stop offset="1" stop-color="#141414" />
+          <stop stopColor="white" />
+          <stop offset="0.3102" stopColor="#FDFDFD" />
+          <stop offset="0.4505" stopColor="#F6F6F6" />
+          <stop offset="0.5567" stopColor="#E9E9E9" />
+          <stop offset="0.6456" stopColor="#D7D7D7" />
+          <stop offset="0.7238" stopColor="#BFBFBF" />
+          <stop offset="0.7944" stopColor="#A2A2A2" />
+          <stop offset="0.8593" stopColor="#808080" />
+          <stop offset="0.9199" stopColor="#575757" />
+          <stop offset="0.9746" stopColor="#2B2B2B" />
+          <stop offset="1" stopColor="#141414" />
         </radialGradient>
         <radialGradient
           id="paint6_radial_460_1557"
@@ -217,11 +217,11 @@ function BMWLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(13.7879 15.8361) scale(36.7857 36.7857)"
         >
-          <stop stop-color="#E6E6E6" />
-          <stop offset="0.1045" stop-color="#D6D6D6" />
-          <stop offset="0.3074" stop-color="#ADADAD" />
-          <stop offset="0.5884" stop-color="#6C6C6C" />
-          <stop offset="0.9335" stop-color="#121212" />
+          <stop stopColor="#E6E6E6" />
+          <stop offset="0.1045" stopColor="#D6D6D6" />
+          <stop offset="0.3074" stopColor="#ADADAD" />
+          <stop offset="0.5884" stopColor="#6C6C6C" />
+          <stop offset="0.9335" stopColor="#121212" />
           <stop offset="1" />
         </radialGradient>
         <radialGradient
@@ -232,17 +232,17 @@ function BMWLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(23.8491 20.7837) scale(53.4969 53.4969)"
         >
-          <stop stop-color="white" />
-          <stop offset="0.3435" stop-color="#FDFDFD" />
-          <stop offset="0.4814" stop-color="#F6F6F6" />
-          <stop offset="0.5824" stop-color="#EAEAEA" />
-          <stop offset="0.6654" stop-color="#D8D8D8" />
-          <stop offset="0.7373" stop-color="#C2C2C2" />
-          <stop offset="0.8016" stop-color="#A6A6A6" />
-          <stop offset="0.8602" stop-color="#848484" />
-          <stop offset="0.9126" stop-color="#5F5F5F" />
-          <stop offset="0.9494" stop-color="#404040" />
-          <stop offset="0.9566" stop-color="#404040" />
+          <stop stopColor="white" />
+          <stop offset="0.3435" stopColor="#FDFDFD" />
+          <stop offset="0.4814" stopColor="#F6F6F6" />
+          <stop offset="0.5824" stopColor="#EAEAEA" />
+          <stop offset="0.6654" stopColor="#D8D8D8" />
+          <stop offset="0.7373" stopColor="#C2C2C2" />
+          <stop offset="0.8016" stopColor="#A6A6A6" />
+          <stop offset="0.8602" stopColor="#848484" />
+          <stop offset="0.9126" stopColor="#5F5F5F" />
+          <stop offset="0.9494" stopColor="#404040" />
+          <stop offset="0.9566" stopColor="#404040" />
           <stop offset="1" />
         </radialGradient>
         <radialGradient
@@ -253,22 +253,22 @@ function BMWLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(8.14174 0.504746) scale(94.7436)"
         >
-          <stop offset="0.1685" stop-color="white" />
-          <stop offset="0.1957" stop-color="#E0EFF7" />
-          <stop offset="0.2406" stop-color="#B2D9EC" />
-          <stop offset="0.2872" stop-color="#8BC5E2" />
-          <stop offset="0.335" stop-color="#6BB5DA" />
-          <stop offset="0.3844" stop-color="#52A9D4" />
-          <stop offset="0.4359" stop-color="#41A0CF" />
-          <stop offset="0.4911" stop-color="#369BCD" />
-          <stop offset="0.5562" stop-color="#3399CC" />
-          <stop offset="0.606" stop-color="#3396C8" />
-          <stop offset="0.6553" stop-color="#328EBC" />
-          <stop offset="0.7045" stop-color="#3180A8" />
-          <stop offset="0.7536" stop-color="#2F6D8C" />
-          <stop offset="0.8027" stop-color="#2D5468" />
-          <stop offset="0.8512" stop-color="#2A373D" />
-          <stop offset="0.8708" stop-color="#292929" />
+          <stop offset="0.1685" stopColor="white" />
+          <stop offset="0.1957" stopColor="#E0EFF7" />
+          <stop offset="0.2406" stopColor="#B2D9EC" />
+          <stop offset="0.2872" stopColor="#8BC5E2" />
+          <stop offset="0.335" stopColor="#6BB5DA" />
+          <stop offset="0.3844" stopColor="#52A9D4" />
+          <stop offset="0.4359" stopColor="#41A0CF" />
+          <stop offset="0.4911" stopColor="#369BCD" />
+          <stop offset="0.5562" stopColor="#3399CC" />
+          <stop offset="0.606" stopColor="#3396C8" />
+          <stop offset="0.6553" stopColor="#328EBC" />
+          <stop offset="0.7045" stopColor="#3180A8" />
+          <stop offset="0.7536" stopColor="#2F6D8C" />
+          <stop offset="0.8027" stopColor="#2D5468" />
+          <stop offset="0.8512" stopColor="#2A373D" />
+          <stop offset="0.8708" stopColor="#292929" />
         </radialGradient>
         <radialGradient
           id="paint9_radial_460_1557"
@@ -278,22 +278,22 @@ function BMWLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(8.14175 0.50423) scale(94.7418 94.7418)"
         >
-          <stop offset="0.1685" stop-color="white" />
-          <stop offset="0.1957" stop-color="#E0EFF7" />
-          <stop offset="0.2406" stop-color="#B2D9EC" />
-          <stop offset="0.2872" stop-color="#8BC5E2" />
-          <stop offset="0.335" stop-color="#6BB5DA" />
-          <stop offset="0.3844" stop-color="#52A9D4" />
-          <stop offset="0.4359" stop-color="#41A0CF" />
-          <stop offset="0.4911" stop-color="#369BCD" />
-          <stop offset="0.5562" stop-color="#3399CC" />
-          <stop offset="0.606" stop-color="#3396C8" />
-          <stop offset="0.6553" stop-color="#328EBC" />
-          <stop offset="0.7045" stop-color="#3180A8" />
-          <stop offset="0.7536" stop-color="#2F6D8C" />
-          <stop offset="0.8027" stop-color="#2D5468" />
-          <stop offset="0.8512" stop-color="#2A373D" />
-          <stop offset="0.8708" stop-color="#292929" />
+          <stop offset="0.1685" stopColor="white" />
+          <stop offset="0.1957" stopColor="#E0EFF7" />
+          <stop offset="0.2406" stopColor="#B2D9EC" />
+          <stop offset="0.2872" stopColor="#8BC5E2" />
+          <stop offset="0.335" stopColor="#6BB5DA" />
+          <stop offset="0.3844" stopColor="#52A9D4" />
+          <stop offset="0.4359" stopColor="#41A0CF" />
+          <stop offset="0.4911" stopColor="#369BCD" />
+          <stop offset="0.5562" stopColor="#3399CC" />
+          <stop offset="0.606" stopColor="#3396C8" />
+          <stop offset="0.6553" stopColor="#328EBC" />
+          <stop offset="0.7045" stopColor="#3180A8" />
+          <stop offset="0.7536" stopColor="#2F6D8C" />
+          <stop offset="0.8027" stopColor="#2D5468" />
+          <stop offset="0.8512" stopColor="#2A373D" />
+          <stop offset="0.8708" stopColor="#292929" />
         </radialGradient>
         <radialGradient
           id="paint10_radial_460_1557"
@@ -303,11 +303,11 @@ function BMWLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(14.2902 16.2998) scale(36.0806 36.0806)"
         >
-          <stop stop-color="#E6E6E6" />
-          <stop offset="0.1045" stop-color="#D6D6D6" />
-          <stop offset="0.3074" stop-color="#ADADAD" />
-          <stop offset="0.5884" stop-color="#6C6C6C" />
-          <stop offset="0.9335" stop-color="#121212" />
+          <stop stopColor="#E6E6E6" />
+          <stop offset="0.1045" stopColor="#D6D6D6" />
+          <stop offset="0.3074" stopColor="#ADADAD" />
+          <stop offset="0.5884" stopColor="#6C6C6C" />
+          <stop offset="0.9335" stopColor="#121212" />
           <stop offset="1" />
         </radialGradient>
         <linearGradient
@@ -318,14 +318,14 @@ function BMWLogo() {
           y2="41.2917"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F0F4FF" />
-          <stop offset="0.1086" stop-color="#EBEFF9" />
-          <stop offset="0.2475" stop-color="#DCE0EA" />
-          <stop offset="0.4028" stop-color="#C4C7CF" />
-          <stop offset="0.5701" stop-color="#A2A4AB" />
-          <stop offset="0.7469" stop-color="#76777C" />
-          <stop offset="0.9291" stop-color="#414243" />
-          <stop offset="1" stop-color="#2B2B2B" />
+          <stop stopColor="#F0F4FF" />
+          <stop offset="0.1086" stopColor="#EBEFF9" />
+          <stop offset="0.2475" stopColor="#DCE0EA" />
+          <stop offset="0.4028" stopColor="#C4C7CF" />
+          <stop offset="0.5701" stopColor="#A2A4AB" />
+          <stop offset="0.7469" stopColor="#76777C" />
+          <stop offset="0.9291" stopColor="#414243" />
+          <stop offset="1" stopColor="#2B2B2B" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_460_1557"
@@ -335,14 +335,14 @@ function BMWLogo() {
           y2="69.9988"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F0F4FF" />
-          <stop offset="0.1086" stop-color="#EBEFF9" />
-          <stop offset="0.2475" stop-color="#DCE0EA" />
-          <stop offset="0.4028" stop-color="#C4C7CF" />
-          <stop offset="0.5701" stop-color="#A2A4AB" />
-          <stop offset="0.7469" stop-color="#76777C" />
-          <stop offset="0.9291" stop-color="#414243" />
-          <stop offset="1" stop-color="#2B2B2B" />
+          <stop stopColor="#F0F4FF" />
+          <stop offset="0.1086" stopColor="#EBEFF9" />
+          <stop offset="0.2475" stopColor="#DCE0EA" />
+          <stop offset="0.4028" stopColor="#C4C7CF" />
+          <stop offset="0.5701" stopColor="#A2A4AB" />
+          <stop offset="0.7469" stopColor="#76777C" />
+          <stop offset="0.9291" stopColor="#414243" />
+          <stop offset="1" stopColor="#2B2B2B" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_460_1557"
@@ -352,12 +352,12 @@ function BMWLogo() {
           y2="41.5039"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C2D7E8" />
-          <stop offset="0.1337" stop-color="#BACFE1" />
-          <stop offset="0.3425" stop-color="#A4BACD" />
-          <stop offset="0.6001" stop-color="#8098AC" />
-          <stop offset="0.894" stop-color="#4E697F" />
-          <stop offset="1" stop-color="#3A566D" />
+          <stop stopColor="#C2D7E8" />
+          <stop offset="0.1337" stopColor="#BACFE1" />
+          <stop offset="0.3425" stopColor="#A4BACD" />
+          <stop offset="0.6001" stopColor="#8098AC" />
+          <stop offset="0.894" stopColor="#4E697F" />
+          <stop offset="1" stopColor="#3A566D" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_460_1557"
@@ -367,13 +367,13 @@ function BMWLogo() {
           y2="61.8525"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F0F4FF" />
-          <stop offset="0.0973" stop-color="#E8EBF6" />
-          <stop offset="0.2568" stop-color="#D1D4DD" />
-          <stop offset="0.4587" stop-color="#ABAEB5" />
-          <stop offset="0.6951" stop-color="#78797D" />
-          <stop offset="0.9578" stop-color="#363637" />
-          <stop offset="1" stop-color="#2B2B2B" />
+          <stop stopColor="#F0F4FF" />
+          <stop offset="0.0973" stopColor="#E8EBF6" />
+          <stop offset="0.2568" stopColor="#D1D4DD" />
+          <stop offset="0.4587" stopColor="#ABAEB5" />
+          <stop offset="0.6951" stopColor="#78797D" />
+          <stop offset="0.9578" stopColor="#363637" />
+          <stop offset="1" stopColor="#2B2B2B" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_460_1557"
@@ -383,14 +383,14 @@ function BMWLogo() {
           y2="52.4857"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9DEF0" />
-          <stop offset="0.1229" stop-color="#D4DAEC" />
-          <stop offset="0.2629" stop-color="#C7CFE2" />
-          <stop offset="0.4114" stop-color="#B0BCD1" />
-          <stop offset="0.5657" stop-color="#90A1B8" />
-          <stop offset="0.7246" stop-color="#677F99" />
-          <stop offset="0.8849" stop-color="#355674" />
-          <stop offset="0.9719" stop-color="#173D5D" />
+          <stop stopColor="#D9DEF0" />
+          <stop offset="0.1229" stopColor="#D4DAEC" />
+          <stop offset="0.2629" stopColor="#C7CFE2" />
+          <stop offset="0.4114" stopColor="#B0BCD1" />
+          <stop offset="0.5657" stopColor="#90A1B8" />
+          <stop offset="0.7246" stopColor="#677F99" />
+          <stop offset="0.8849" stopColor="#355674" />
+          <stop offset="0.9719" stopColor="#173D5D" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_460_1557"
@@ -400,14 +400,14 @@ function BMWLogo() {
           y2="49.0416"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F0F4FF" />
-          <stop offset="0.1086" stop-color="#EBEFF9" />
-          <stop offset="0.2475" stop-color="#DCE0EA" />
-          <stop offset="0.4028" stop-color="#C4C7CF" />
-          <stop offset="0.5701" stop-color="#A2A4AB" />
-          <stop offset="0.7469" stop-color="#76777C" />
-          <stop offset="0.9291" stop-color="#414243" />
-          <stop offset="1" stop-color="#2B2B2B" />
+          <stop stopColor="#F0F4FF" />
+          <stop offset="0.1086" stopColor="#EBEFF9" />
+          <stop offset="0.2475" stopColor="#DCE0EA" />
+          <stop offset="0.4028" stopColor="#C4C7CF" />
+          <stop offset="0.5701" stopColor="#A2A4AB" />
+          <stop offset="0.7469" stopColor="#76777C" />
+          <stop offset="0.9291" stopColor="#414243" />
+          <stop offset="1" stopColor="#2B2B2B" />
         </linearGradient>
         <clipPath id="clip0_460_1557">
           <rect width="80" height="80" fill="white" />

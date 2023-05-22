@@ -55,14 +55,14 @@ function Footer() {
               </p>
               <p className="footer__grid-item__contact-info">
                 <PhoneIcon />
-                <div>
+                <span>
                   <span className="footer__grid-item__mobile ">
                     01477678449405
                   </span>
                   <span className="footer__grid-item__mobile">
                     01477678449405
                   </span>
-                </div>
+                </span>
               </p>
               <p className="footer__grid-item__contact-info">
                 <MailIcon />

@@ -58,26 +58,26 @@ function VolvoLogo() {
       <path
         d="M59.9196 3.14941C67.1398 7.00884 72.9912 12.9845 76.9749 20.0805"
         stroke="#B1B0A8"
-        stroke-width="0.3402"
-        stroke-linecap="round"
+        strokeWidth="0.3402"
+        strokeLinecap="round"
       />
       <path
         d="M59.9196 3.14941C67.0156 7.00884 72.9912 12.9845 76.8507 20.0805"
         stroke="#CBCAC4"
-        stroke-width="0.2361"
-        stroke-linecap="round"
+        strokeWidth="0.2361"
+        strokeLinecap="round"
       />
       <path
         d="M59.7947 3.14941C67.0156 7.00884 72.8663 12.9845 76.8507 20.2054"
         stroke="#E6E6E1"
-        stroke-width="0.1324"
-        stroke-linecap="round"
+        strokeWidth="0.1324"
+        strokeLinecap="round"
       />
       <path
         d="M59.7947 3.14941C66.8907 7.13379 72.8663 12.9845 76.7257 20.2054"
         stroke="white"
-        stroke-width="0.0283"
-        stroke-linecap="round"
+        strokeWidth="0.0283"
+        strokeLinecap="round"
       />
       <path
         d="M76.9749 2.77588C77.0998 2.77588 77.224 2.90007 77.224 3.14883H59.9196H59.6705C59.6705 2.90007 59.7947 2.77588 59.9196 2.77588H76.9749Z"
@@ -108,16 +108,16 @@ function VolvoLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(13.5631 32.7064) scale(77.2302)"
         >
-          <stop stop-color="white" />
-          <stop offset="0.0469" stop-color="#FCFCFB" />
-          <stop offset="0.2247" stop-color="#FAFAF9" />
-          <stop offset="0.3719" stop-color="#B9B9B8" />
-          <stop offset="0.4972" stop-color="#888887" />
-          <stop offset="0.5923" stop-color="#6A6A69" />
-          <stop offset="0.6461" stop-color="#5F5F5E" />
-          <stop offset="0.7275" stop-color="#555554" />
-          <stop offset="0.8673" stop-color="#3A3939" />
-          <stop offset="1" stop-color="#1B1919" />
+          <stop stopColor="white" />
+          <stop offset="0.0469" stopColor="#FCFCFB" />
+          <stop offset="0.2247" stopColor="#FAFAF9" />
+          <stop offset="0.3719" stopColor="#B9B9B8" />
+          <stop offset="0.4972" stopColor="#888887" />
+          <stop offset="0.5923" stopColor="#6A6A69" />
+          <stop offset="0.6461" stopColor="#5F5F5E" />
+          <stop offset="0.7275" stopColor="#555554" />
+          <stop offset="0.8673" stopColor="#3A3939" />
+          <stop offset="1" stopColor="#1B1919" />
         </radialGradient>
         <linearGradient
           id="paint1_linear_460_1581"
@@ -127,8 +127,8 @@ function VolvoLogo() {
           y2="44.6212"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E2E2DC" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#E2E2DC" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <radialGradient
           id="paint2_radial_460_1581"
@@ -138,8 +138,8 @@ function VolvoLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(61.9769 63.8306) scale(84.7574 84.7574)"
         >
-          <stop stop-color="#C5C6C2" />
-          <stop offset="1" stop-color="#868680" />
+          <stop stopColor="#C5C6C2" />
+          <stop offset="1" stopColor="#868680" />
         </radialGradient>
         <radialGradient
           id="paint3_radial_460_1581"
@@ -149,19 +149,19 @@ function VolvoLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(53.333 53.457) scale(59.5203 59.5203)"
         >
-          <stop stop-color="white" />
-          <stop offset="0.1986" stop-color="#F2F2F3" />
-          <stop offset="0.2978" stop-color="#EAEAEB" />
-          <stop offset="0.2992" stop-color="#E9E9EA" />
-          <stop offset="0.3715" stop-color="#C3C3C3" />
-          <stop offset="0.443" stop-color="#A5A5A5" />
-          <stop offset="0.5126" stop-color="#8F8F8F" />
-          <stop offset="0.5794" stop-color="#828281" />
-          <stop offset="0.6404" stop-color="#7E7E7D" />
-          <stop offset="0.7534" stop-color="#545352" />
-          <stop offset="0.8551" stop-color="#353333" />
-          <stop offset="0.9408" stop-color="#222020" />
-          <stop offset="1" stop-color="#1B1919" />
+          <stop stopColor="white" />
+          <stop offset="0.1986" stopColor="#F2F2F3" />
+          <stop offset="0.2978" stopColor="#EAEAEB" />
+          <stop offset="0.2992" stopColor="#E9E9EA" />
+          <stop offset="0.3715" stopColor="#C3C3C3" />
+          <stop offset="0.443" stopColor="#A5A5A5" />
+          <stop offset="0.5126" stopColor="#8F8F8F" />
+          <stop offset="0.5794" stopColor="#828281" />
+          <stop offset="0.6404" stopColor="#7E7E7D" />
+          <stop offset="0.7534" stopColor="#545352" />
+          <stop offset="0.8551" stopColor="#353333" />
+          <stop offset="0.9408" stopColor="#222020" />
+          <stop offset="1" stopColor="#1B1919" />
         </radialGradient>
         <linearGradient
           id="paint4_linear_460_1581"
@@ -171,15 +171,15 @@ function VolvoLogo() {
           y2="49.7495"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="0.17" stop-color="#FAFAF9" stop-opacity="0" />
-          <stop offset="0.427" stop-color="#BBBBB8" stop-opacity="0.1" />
-          <stop offset="0.5232" stop-color="#8F8F8C" stop-opacity="0.2" />
-          <stop offset="0.6238" stop-color="#686866" stop-opacity="0.3" />
-          <stop offset="0.7234" stop-color="#4A4948" stop-opacity="0.6" />
-          <stop offset="0.8206" stop-color="#343432" stop-opacity="0.8" />
-          <stop offset="0.9141" stop-color="#272625" stop-opacity="0.9" />
-          <stop offset="1" stop-color="#232221" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="0.17" stopColor="#FAFAF9" stopOpacity="0" />
+          <stop offset="0.427" stopColor="#BBBBB8" stopOpacity="0.1" />
+          <stop offset="0.5232" stopColor="#8F8F8C" stopOpacity="0.2" />
+          <stop offset="0.6238" stopColor="#686866" stopOpacity="0.3" />
+          <stop offset="0.7234" stopColor="#4A4948" stopOpacity="0.6" />
+          <stop offset="0.8206" stopColor="#343432" stopOpacity="0.8" />
+          <stop offset="0.9141" stopColor="#272625" stopOpacity="0.9" />
+          <stop offset="1" stopColor="#232221" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_460_1581"
@@ -189,15 +189,15 @@ function VolvoLogo() {
           y2="49.7495"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="0.17" stop-color="#FAFAF9" stop-opacity="0" />
-          <stop offset="0.427" stop-color="#BBBBB8" stop-opacity="0" />
-          <stop offset="0.5232" stop-color="#8F8F8C" stop-opacity="0" />
-          <stop offset="0.6238" stop-color="#686866" stop-opacity="0" />
-          <stop offset="0.7234" stop-color="#4A4948" stop-opacity="0.25" />
-          <stop offset="0.8206" stop-color="#343432" stop-opacity="0.5" />
-          <stop offset="0.9141" stop-color="#272625" stop-opacity="0.75" />
-          <stop offset="1" stop-color="#232221" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="0.17" stopColor="#FAFAF9" stopOpacity="0" />
+          <stop offset="0.427" stopColor="#BBBBB8" stopOpacity="0" />
+          <stop offset="0.5232" stopColor="#8F8F8C" stopOpacity="0" />
+          <stop offset="0.6238" stopColor="#686866" stopOpacity="0" />
+          <stop offset="0.7234" stopColor="#4A4948" stopOpacity="0.25" />
+          <stop offset="0.8206" stopColor="#343432" stopOpacity="0.5" />
+          <stop offset="0.9141" stopColor="#272625" stopOpacity="0.75" />
+          <stop offset="1" stopColor="#232221" />
         </linearGradient>
         <radialGradient
           id="paint6_radial_460_1581"
@@ -207,14 +207,14 @@ function VolvoLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(5.35271 32.7101) scale(48.0488 48.0488)"
         >
-          <stop stop-color="#006AB1" />
-          <stop offset="0.0016" stop-color="#006AB1" />
-          <stop offset="0.1275" stop-color="#0061A4" />
-          <stop offset="0.2416" stop-color="#005E9F" />
-          <stop offset="0.5062" stop-color="#00548E" />
-          <stop offset="0.8371" stop-color="#004374" />
-          <stop offset="0.9588" stop-color="#004173" />
-          <stop offset="1" stop-color="#003B6F" />
+          <stop stopColor="#006AB1" />
+          <stop offset="0.0016" stopColor="#006AB1" />
+          <stop offset="0.1275" stopColor="#0061A4" />
+          <stop offset="0.2416" stopColor="#005E9F" />
+          <stop offset="0.5062" stopColor="#00548E" />
+          <stop offset="0.8371" stopColor="#004374" />
+          <stop offset="0.9588" stopColor="#004173" />
+          <stop offset="1" stopColor="#003B6F" />
         </radialGradient>
         <linearGradient
           id="paint7_linear_460_1581"
@@ -224,29 +224,29 @@ function VolvoLogo() {
           y2="3.80195"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0056" stop-color="#212111" />
-          <stop offset="0.6461" stop-color="#41403F" />
-          <stop offset="0.6508" stop-color="#454443" />
-          <stop offset="0.6558" stop-color="#52514F" />
-          <stop offset="0.6608" stop-color="#666564" />
-          <stop offset="0.6659" stop-color="#838281" />
-          <stop offset="0.6711" stop-color="#A9A8A6" />
-          <stop offset="0.6762" stop-color="#D6D5D2" />
-          <stop offset="0.68" stop-color="#FDFCF9" />
-          <stop offset="0.6826" stop-color="#FAF9F6" />
-          <stop offset="0.6842" stop-color="#F2F1EE" />
-          <stop offset="0.6856" stop-color="#E3E2DF" />
-          <stop offset="0.6869" stop-color="#CECECA" />
-          <stop offset="0.688" stop-color="#B3B3AF" />
-          <stop offset="0.6891" stop-color="#93938E" />
-          <stop offset="0.69" stop-color="#70706B" />
-          <stop offset="0.6924" stop-color="#6D6D68" />
-          <stop offset="0.7145" stop-color="#535250" />
-          <stop offset="0.7396" stop-color="#3E3C3D" />
-          <stop offset="0.7692" stop-color="#2E2B2D" />
-          <stop offset="0.8059" stop-color="#222023" />
-          <stop offset="0.8573" stop-color="#1C191D" />
-          <stop offset="1" stop-color="#1A171B" />
+          <stop offset="0.0056" stopColor="#212111" />
+          <stop offset="0.6461" stopColor="#41403F" />
+          <stop offset="0.6508" stopColor="#454443" />
+          <stop offset="0.6558" stopColor="#52514F" />
+          <stop offset="0.6608" stopColor="#666564" />
+          <stop offset="0.6659" stopColor="#838281" />
+          <stop offset="0.6711" stopColor="#A9A8A6" />
+          <stop offset="0.6762" stopColor="#D6D5D2" />
+          <stop offset="0.68" stopColor="#FDFCF9" />
+          <stop offset="0.6826" stopColor="#FAF9F6" />
+          <stop offset="0.6842" stopColor="#F2F1EE" />
+          <stop offset="0.6856" stopColor="#E3E2DF" />
+          <stop offset="0.6869" stopColor="#CECECA" />
+          <stop offset="0.688" stopColor="#B3B3AF" />
+          <stop offset="0.6891" stopColor="#93938E" />
+          <stop offset="0.69" stopColor="#70706B" />
+          <stop offset="0.6924" stopColor="#6D6D68" />
+          <stop offset="0.7145" stopColor="#535250" />
+          <stop offset="0.7396" stopColor="#3E3C3D" />
+          <stop offset="0.7692" stopColor="#2E2B2D" />
+          <stop offset="0.8059" stopColor="#222023" />
+          <stop offset="0.8573" stopColor="#1C191D" />
+          <stop offset="1" stopColor="#1A171B" />
         </linearGradient>
         <radialGradient
           id="paint8_radial_460_1581"
@@ -256,8 +256,8 @@ function VolvoLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(74.0837 5.04378) scale(20.0802 20.0802)"
         >
-          <stop stop-color="#555552" />
-          <stop offset="1" stop-color="#50504D" />
+          <stop stopColor="#555552" />
+          <stop offset="1" stopColor="#50504D" />
         </radialGradient>
         <linearGradient
           id="paint9_linear_460_1581"
@@ -267,12 +267,12 @@ function VolvoLogo() {
           y2="2.96251"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5D5D5F" />
-          <stop offset="0.0852" stop-color="#505051" />
-          <stop offset="0.2581" stop-color="#3C3C3C" />
-          <stop offset="0.4497" stop-color="#2E2D2D" />
-          <stop offset="0.6724" stop-color="#262524" />
-          <stop offset="1" stop-color="#232221" />
+          <stop stopColor="#5D5D5F" />
+          <stop offset="0.0852" stopColor="#505051" />
+          <stop offset="0.2581" stopColor="#3C3C3C" />
+          <stop offset="0.4497" stopColor="#2E2D2D" />
+          <stop offset="0.6724" stopColor="#262524" />
+          <stop offset="1" stopColor="#232221" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_460_1581"
@@ -282,11 +282,11 @@ function VolvoLogo() {
           y2="2.77592"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5D5D5F" />
-          <stop offset="0.096" stop-color="#555456" />
-          <stop offset="0.4584" stop-color="#393939" />
-          <stop offset="0.7723" stop-color="#292827" />
-          <stop offset="1" stop-color="#232221" />
+          <stop stopColor="#5D5D5F" />
+          <stop offset="0.096" stopColor="#555456" />
+          <stop offset="0.4584" stopColor="#393939" />
+          <stop offset="0.7723" stopColor="#292827" />
+          <stop offset="1" stopColor="#232221" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_460_1581"
@@ -296,18 +296,18 @@ function VolvoLogo() {
           y2="39.9193"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="0.1091" stop-color="#D8E8F3" />
-          <stop offset="0.3376" stop-color="#8CBCDC" />
-          <stop offset="0.5419" stop-color="#5099C9" />
-          <stop offset="0.7143" stop-color="#257FBC" />
-          <stop offset="0.8481" stop-color="#0A70B4" />
-          <stop offset="0.927" stop-color="#006AB1" />
-          <stop offset="0.9288" stop-color="#046BB2" />
-          <stop offset="0.9489" stop-color="#2678B8" />
-          <stop offset="0.968" stop-color="#3E81BD" />
-          <stop offset="0.9856" stop-color="#4D86C0" />
-          <stop offset="1" stop-color="#5288C1" />
+          <stop stopColor="white" />
+          <stop offset="0.1091" stopColor="#D8E8F3" />
+          <stop offset="0.3376" stopColor="#8CBCDC" />
+          <stop offset="0.5419" stopColor="#5099C9" />
+          <stop offset="0.7143" stopColor="#257FBC" />
+          <stop offset="0.8481" stopColor="#0A70B4" />
+          <stop offset="0.927" stopColor="#006AB1" />
+          <stop offset="0.9288" stopColor="#046BB2" />
+          <stop offset="0.9489" stopColor="#2678B8" />
+          <stop offset="0.968" stopColor="#3E81BD" />
+          <stop offset="0.9856" stopColor="#4D86C0" />
+          <stop offset="1" stopColor="#5288C1" />
         </linearGradient>
       </defs>
     </svg>
