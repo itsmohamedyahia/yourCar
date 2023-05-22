@@ -2,8 +2,6 @@ import "./NavHeroContainer.scss";
 import { useState, useEffect } from "react";
 
 function NavHeroContainer(props) {
-  // const [isHeroVisible, setHeroVisible] = useState(true);
-
   const [isHeroVisible, setHeroVisible] = useState(true);
 
   useEffect(() => {
@@ -28,7 +26,7 @@ function NavHeroContainer(props) {
 
   const classes = isHeroVisible ? undefined : "sticky";
 
-  return <div className={" bg-img-container"}>{props.children}</div>;
+  return <div className={`${classes} bg-img-container`}>{props.children}</div>;
 }
 
 export default NavHeroContainer;
