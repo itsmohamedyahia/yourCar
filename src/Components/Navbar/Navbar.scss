@@ -1,3 +1,6 @@
+@import "../../variables.scss";
+@import "../../utils.scss";
+
 .navbar {
   display: flex;
   align-items: center;
@@ -41,14 +44,19 @@
     }
   }
   &__cart-btn {
-    fill: #fff;
+    fill: var(--brown);
     width: 4rem;
     height: 4rem;
   }
   &__burger-btn {
-    fill: #fff;
+    fill: var(--brown);
     width: 2rem;
     height: 2rem;
+    display: none;
+
+    @media (max-width: $tablet) {
+      display: block;
+    }
   }
   &__mob-btn {
     margin: 0 1rem;
