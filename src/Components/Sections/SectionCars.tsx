@@ -33,6 +33,17 @@ export default function SectionCars() {
         <h1 className="section--cars__heading--shadow">Cars</h1>
         <h2 className="section--cars__heading">Cars</h2>
         <div className="section--cars__card-container">
+          <div className="section--cars__card-container__control section--cars__card-container__control--back ">
+            <svg
+              fill="white"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path d="M3 12l18-12v24z" />
+            </svg>
+          </div>
           {carsData
             .filter(
               (item, index) =>
@@ -47,17 +58,6 @@ export default function SectionCars() {
                 onDecrease={() => handleQuantityChange(index, -1)}
               />
             ))}
-          <div className="section--cars__card-container__control section--cars__card-container__control--back ">
-            <svg
-              fill="white"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path d="M3 12l18-12v24z" />
-            </svg>
-          </div>
           <div className="section--cars__card-container__control section--cars__card-container__control--forward">
             <svg
               fill="white"
