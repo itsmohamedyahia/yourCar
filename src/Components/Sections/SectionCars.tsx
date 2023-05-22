@@ -1,8 +1,10 @@
 import CarCard from "./Components/CarCard";
 import "./SectionCars.scss";
 import { useState } from "react";
+import { CarsDataContext } from "../../utils/carsDataContext";
+import { useContext } from "react";
 
-export default function SectionCars(props) {
+export default function SectionCars() {
   const [index1stShowedCar, setIndex1stShowedCar] = useState(0);
   const [indexLastShowedCar, setIndexLastShowedCar] = useState(2);
   const [indexLastShowedCarOnTablet, setIndexLastShowedCarOnTablet] =
@@ -11,13 +13,27 @@ export default function SectionCars(props) {
     useState(0);
 
   const [activeCar, setActiveCar] = useState(0);
+
+  const [carsData, setCarsData] = useContext(CarsDataContext);
+  console.log(carsData);
+  /////////////////////
+
+  const handleQuantityChange = (index, amount) => {
+    setCarsData((prevCars) => {
+      const updatedCars = [...prevCars];
+      const car = updatedCars[index];
+      car.inCart += amount;
+      return updatedCars;
+    });
+  };
+
   return (
     <section className="section--cars">
       <div className="container">
         <h1 className="section--cars__heading--shadow">Cars</h1>
         <h2 className="section--cars__heading">Cars</h2>
         <div className="section--cars__card-container">
-          {props.data
+          {carsData
             .filter(
               (item, index) =>
                 index >= index1stShowedCar && index <= indexLastShowedCar
@@ -26,9 +42,9 @@ export default function SectionCars(props) {
               <CarCard
                 key={data.name}
                 data={data}
-                setData={props.setData}
-                onIncrease={() => props.handleQuantityChange(index, 1)}
-                onDecrease={() => props.handleQuantityChange(index, -1)}
+                setData={setCarsData}
+                onIncrease={() => handleQuantityChange(index, 1)}
+                onDecrease={() => handleQuantityChange(index, -1)}
               />
             ))}
           <div className="section--cars__card-container__control section--cars__card-container__control--back ">
@@ -55,7 +71,7 @@ export default function SectionCars(props) {
           </div>
         </div>
         <div className="section--cars__circles">
-          {props.data.map((item, index) => {
+          {carsData.map((item, index) => {
             return (
               <div
                 key={index}

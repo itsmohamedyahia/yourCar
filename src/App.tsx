@@ -12,6 +12,8 @@ import SectionCars from "./Components/Sections/SectionCars";
 
 import data from "../public/data.json";
 import { useState } from "react";
+//context
+import { CarsDataContext } from "./utils/carsDataContext";
 
 function App() {
   const itsCarsData = data.cars.map((obj) => {
@@ -22,17 +24,8 @@ function App() {
 
   //=============================================
 
-  const handleQuantityChange = (index, amount) => {
-    setCarsData((prevCars) => {
-      const updatedCars = [...prevCars];
-      const car = updatedCars[index];
-      car.inCart += amount;
-      return updatedCars;
-    });
-  };
-
   return (
-    <>
+    <CarsDataContext.Provider value={[carsData, setCarsData]}>
       <NavHeroContainer>
         <Navbar />
         <SectionHero />
@@ -40,11 +33,7 @@ function App() {
       <main>
         <SectionAbout />
         <SectionServices />
-        <SectionCars
-          data={carsData}
-          setData={setCarsData}
-          handleQuantityChange={handleQuantityChange}
-        />
+        <SectionCars />
         <SectionGallery />
         <SectionTestimonials data={data.testimonials} />
         <SectionFeatured />
@@ -58,7 +47,7 @@ function App() {
             ))}
         </aside>
       </main>
-    </>
+    </CarsDataContext.Provider>
   );
 }
 
