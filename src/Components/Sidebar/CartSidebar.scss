@@ -1,0 +1,59 @@
+@import "../../variables.scss";
+@import "../../utils.scss";
+
+.cart-sidebar {
+  position: fixed;
+  height: 100%;
+  top: 10.1rem;
+  right: 0;
+  width: 40rem;
+  background-color: #12273dc0;
+  color: white;
+  padding: 3rem;
+  overflow-y: auto;
+
+  @media (max-width: $tablet) {
+    top: 9.2rem;
+  }
+
+  &__empty {
+    font-size: 2.4rem;
+    font-weight: 800;
+  }
+  &__card {
+    display: flex;
+    padding: 2rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 2rem;
+
+    &__heading {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    &__post-heading {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    &__control {
+      display: flex;
+      align-items: center;
+      font-size: 2rem;
+      gap: 0.8rem;
+
+      &__btn {
+        color: white;
+        font-size: 2.4rem;
+        padding: 0.2rem 1rem;
+        background-color: var(--brown);
+        border-radius: 4rem;
+      }
+      &__number {
+      }
+    }
+    &__img {
+      width: 20rem;
+    }
+  }
+}

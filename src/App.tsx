@@ -9,11 +9,15 @@ import SectionFeatured from "./Components/Sections/SectionFeatured";
 import Footer from "./Components/Sections/Footer/Footer";
 import SectionGallery from "./Components/Sections/SectionGallery";
 import SectionCars from "./Components/Sections/SectionCars";
+import NavSidebar from "./Components/Sidebar/NavSidebar";
+import CartSidebar from "./Components/Sidebar/CartSidebar";
 
 import data from "../public/data.json";
 import { useState } from "react";
 //context
 import { CarsDataContext } from "./utils/carsDataContext";
+import { SidebarStateContext } from "./utils/SidebarStateContext";
+import { CartStateContext } from "./utils/CartStateContext";
 
 function App() {
   const itsCarsData = data.cars.map((obj) => {
@@ -21,33 +25,43 @@ function App() {
   });
 
   const [carsData, setCarsData] = useState(itsCarsData);
-
+  const [isMobNavActive, setIsMobNavActive] = useState(false);
+  const [isCartActive, setIsCartActive] = useState(false);
   //=============================================
 
   return (
-    <CarsDataContext.Provider value={[carsData, setCarsData]}>
-      <NavHeroContainer>
-        <Navbar />
-        <SectionHero />
-      </NavHeroContainer>
-      <main>
-        <SectionAbout />
-        <SectionServices />
-        <SectionCars />
-        <SectionGallery />
-        <SectionTestimonials data={data.testimonials} />
-        <SectionFeatured />
+    <SidebarStateContext.Provider
+      value={[isMobNavActive, setIsMobNavActive, isCartActive, setIsCartActive]}
+    >
+      <CarsDataContext.Provider value={[carsData, setCarsData]}>
+        <NavHeroContainer>
+          <Navbar />
+          <SectionHero
+            onClick={() => {
+              setIsMobNavActive(false);
+              setIsCartActive(false);
+            }}
+          />
+        </NavHeroContainer>
+        <main
+          onClick={() => {
+            setIsMobNavActive(false);
+            setIsCartActive(false);
+          }}
+        >
+          <SectionAbout />
+          <SectionServices />
+          <SectionCars />
+          <SectionGallery />
+          <SectionTestimonials data={data.testimonials} />
+          <SectionFeatured />
 
-        <Footer />
-        <aside className="cart-sidebar">
-          {carsData
-            .filter((obj) => obj.inCart > 0)
-            .map((obj) => (
-              <h1>ez man</h1>
-            ))}
-        </aside>
-      </main>
-    </CarsDataContext.Provider>
+          <Footer />
+        </main>
+        <CartSidebar />
+        <NavSidebar />
+      </CarsDataContext.Provider>
+    </SidebarStateContext.Provider>
   );
 }
 

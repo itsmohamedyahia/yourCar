@@ -1,9 +1,9 @@
 import ArrowTopRightIcon from "../../assets/svg/ArrowTopRightIcon";
 import "./SectionHero.scss";
 
-export default function SectionHero() {
+export default function SectionHero(props) {
   return (
-    <section className="section--hero">
+    <section onClick={props.onClick} className="section--hero">
       <div className="container--align-right">
         <h1 className="section--hero__heading">
           Find the perfect car for you at YourCar.

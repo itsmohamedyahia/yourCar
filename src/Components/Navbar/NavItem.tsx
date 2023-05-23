@@ -11,7 +11,7 @@ export default function NavItem(props) {
         </button>
       ) : (
         <li>
-          <a href={props.to} className="navbar__nav__link">
+          <a href={props.to} className={props.className}>
             {props.label}
           </a>
         </li>
