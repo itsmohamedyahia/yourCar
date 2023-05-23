@@ -17,7 +17,6 @@ import { useState } from "react";
 //context
 import { CarsDataContext } from "./utils/carsDataContext";
 import { SidebarStateContext } from "./utils/SidebarStateContext";
-import { CartStateContext } from "./utils/CartStateContext";
 
 function App() {
   const itsCarsData = data.cars.map((obj) => {
