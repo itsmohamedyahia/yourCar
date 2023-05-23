@@ -51,6 +51,9 @@
       }
       &__number {
       }
+      &__delete {
+        cursor: pointer;
+      }
     }
     &__img {
       width: 20rem;
