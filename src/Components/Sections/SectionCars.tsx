@@ -58,7 +58,10 @@ export default function SectionCars() {
             onClick={leftNavigatorBtnHandler}
           ></div>
           <div className="section--cars__card-container">
-            <div className="section--cars__card-container__control section--cars__card-container__control--back ">
+            <div
+              className="section--cars__card-container__control section--cars__card-container__control--back "
+              onClick={leftNavigatorBtnHandler}
+            >
               <svg
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +90,10 @@ export default function SectionCars() {
                   }
                 />
               ))}
-            <div className="section--cars__card-container__control section--cars__card-container__control--forward">
+            <div
+              className="section--cars__card-container__control section--cars__card-container__control--forward"
+              onClick={rightNavigatorBtnHandler}
+            >
               <svg
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"

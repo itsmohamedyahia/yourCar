@@ -142,11 +142,9 @@
     }
 
     &__control {
+      cursor: pointer;
       @media (max-width: $mobile) {
         display: none;
-      }
-      &--sign {
-        cursor: pointer;
       }
       align-self: center;
 
