@@ -74,13 +74,17 @@ export default function SectionCars() {
                 (item, index) =>
                   index >= index1stShowedCar && index <= indexLastShowedCar
               )
-              .map((data, index) => (
+              .map((data) => (
                 <CarCard
                   key={data.name}
                   data={data}
                   setData={setCarsData}
-                  onIncrease={() => handleQuantityChange(index, 1)}
-                  onDecrease={() => handleQuantityChange(index, -1)}
+                  onIncrease={() =>
+                    handleQuantityChange(carsData.indexOf(data), 1)
+                  }
+                  onDecrease={() =>
+                    handleQuantityChange(carsData.indexOf(data), -1)
+                  }
                 />
               ))}
             <div className="section--cars__card-container__control section--cars__card-container__control--forward">
