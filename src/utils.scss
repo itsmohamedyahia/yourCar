@@ -19,12 +19,14 @@
     @media (max-width: $tablet) {
       align-items: center;
     }
+    margin: 0 4rem;
   }
 
   &--flex {
     @extend .container;
     display: flex;
     justify-content: space-between;
+    margin: 0 4rem;
   }
 
   &--center {
