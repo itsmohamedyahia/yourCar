@@ -79,6 +79,7 @@ export default function SectionCars() {
               )
               .map((data) => (
                 <CarCard
+                  index={carsData.indexOf(data)}
                   key={data.name}
                   data={data}
                   setData={setCarsData}

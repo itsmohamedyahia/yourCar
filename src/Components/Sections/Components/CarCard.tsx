@@ -1,7 +1,10 @@
 import LuggageIcon from "../../SVGs/LuggageIcon";
 import SeatsIcon from "../../SVGs/SeatsIcon";
-
+import { CarsDataContext } from "../../../utils/carsDataContext";
+import { useContext } from "react";
 export default function CarCard(props) {
+  const [carsData, setCarsData] = useContext(CarsDataContext);
+
   function minusBtnHandler() {}
 
   function plusBtnHandler() {}
@@ -35,7 +38,7 @@ export default function CarCard(props) {
             -
           </button>
           <div className="section--cars__card__foot__control__number">
-            {props.data.inCart}
+            {carsData[props.index].inCart}
           </div>
           <button
             onClick={props.onIncrease}
