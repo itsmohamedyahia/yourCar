@@ -17,16 +17,24 @@ import { useState } from "react";
 //context
 import { CarsDataContext } from "./utils/carsDataContext";
 import { SidebarStateContext } from "./utils/SidebarStateContext";
+import { useEffect } from "react";
+
+const itsCarsData = data.cars.map((obj) => {
+  return { ...obj, inCart: 0 };
+});
+
+const carsDataFromStorage = JSON.parse(
+  localStorage.getItem("carsData") || JSON.stringify(itsCarsData)
+);
 
 function App() {
-  const itsCarsData = data.cars.map((obj) => {
-    return { ...obj, inCart: 0 };
-  });
-
-  const [carsData, setCarsData] = useState(itsCarsData);
+  const [carsData, setCarsData] = useState(carsDataFromStorage);
   const [isMobNavActive, setIsMobNavActive] = useState(false);
   const [isCartActive, setIsCartActive] = useState(false);
   //=============================================
+  useEffect(() => {
+    localStorage.setItem("carsData", JSON.stringify(carsData));
+  }, [carsData]);
 
   return (
     <SidebarStateContext.Provider
