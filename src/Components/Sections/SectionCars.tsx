@@ -74,7 +74,7 @@ export default function SectionCars() {
             </div>
             {carsData
               .filter(
-                (item, index) =>
+                (_item, index) =>
                   index >= index1stShowedCar && index <= indexLastShowedCar
               )
               .map((data) => (
@@ -115,7 +115,7 @@ export default function SectionCars() {
         </div>
 
         <div className="section--cars__circles">
-          {carsData.map((item, index) => {
+          {carsData.map((_item, index) => {
             return (
               <div
                 key={index}

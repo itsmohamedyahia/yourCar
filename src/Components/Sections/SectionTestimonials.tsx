@@ -38,7 +38,7 @@ function SectionTestimonials(props) {
           ></img>
         </div>
         <div className="section--testimonials__circles">
-          {props.data.map((item, index) => {
+          {props.data.map((_item, index) => {
             return (
               <div
                 key={index}
